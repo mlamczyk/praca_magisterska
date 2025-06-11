@@ -11,7 +11,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Przykłady podzielono na implementacje pochodzące z różnych repozytoriów.
+Przykłady podzielono na implementacje pochodzące z różnych repozytoriów. Kody źródłowe pochodzą od cytowanych autorów i zostały zmodyfikowane w niewielkim stopniu lub wcale.
 
 ---
 
@@ -42,9 +42,9 @@ Skrypt Pythona do obliczania homologii ścieżek grafów skierowanych. Zwraca:
 Repozytorium: https://github.com/sheaves/path_homology \
 Kod oparty jest na pracy autorów: Carranza, Doherty, Kapulkin, Opie, Sarazola i Wong (2022) [zob. cytowanie poniżej].
 
-Aby uruchomić przykładowy plik `path_homology\example.py` z własnym grafem, należy zastąpić zmienną `G_3` w miejscu
+Aby uruchomić przykładowy plik `path_homology\example.py` z własnym grafem, należy zastąpić zmienną `G_2` w miejscu
 ```
-G = edgelist_to_graph(G_3)
+G = edgelist_to_graph(G_2)
 ```
 swoją listą krawędzi w formacie ciągów dwuliterowych, np.:
 ```
