@@ -77,7 +77,7 @@ Przykład zawartości pliku `pypph\graph.txt`:
 
 Uruchomienie:
 ```
-python pypph\example.py pypph\graph.txt
+python pypph\example.py pypph\graph3.txt
 ```
 
 ---
@@ -98,5 +98,5 @@ Carranza, D., Doherty, B., Kapulkin, K., Opie, M., Sarazola, M., & Wong, L. Z. (
 
 Jeśli wykorzystujesz kod `pypph\pphTools.py`, proszę zacytuj:
 
-Chowdhury, S., & Mémoli, F. (2018). Persistent Path Homology of Directed Networks. In Proceedings of the Twenty-Ninth Annual ACM-SIAM Symposium on Discrete Algorithms (SODA), 1152–1169. https://doi.org/10.1137/1.9781611975031.74 \
+Chowdhury, S., & Mémoli, F. (2018). Persistent Path Homology of Directed Networks. In Proceedings of the Twenty-Ninth Annual ACM-SIAM Symposium on Discrete Algorithms (SODA), 1152–1169. https://doi.org/10.1137/1.9781611975031.75 \
 Kod źródłowy: https://github.com/samirchowdhury/pypph
