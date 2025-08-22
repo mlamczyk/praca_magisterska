@@ -109,6 +109,9 @@ class Dirnet(object):
                     self.ap[1].append(q)
                     self.apwgts[1].append(self.max_time)
                     # self.testx = q
+        print()
+        print(self.ap)
+        print(self.apwgts)
 
     def makeSlots(self):
         # initialize the slots
@@ -149,7 +152,7 @@ class Dirnet(object):
         # get the allow time of summand with maxindex
         lp = len(path)
         at_max_term = self.apwgts[lp - 2][maxindex]
-
+        # print([term_idx_in_summands, max_term_in_summands, maxindex, at_max_term])
         return [term_idx_in_summands, max_term_in_summands, maxindex, at_max_term]
 
     def hasRepeats(self, path):
@@ -195,7 +198,7 @@ class Dirnet(object):
                 self.grewlistby = self.grewlistby + 1
                 # mark that we grew the list
             """
-
+        # print(summands)
         return summands
 
     def computeBoundary(self, path, path_dim, path_idx):

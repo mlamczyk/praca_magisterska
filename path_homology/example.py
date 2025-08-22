@@ -10,11 +10,17 @@ G_2 = [
 ]
 
 G_3 = [
+    '01', '03',
+    '31', '21',
+    '42', '43'
+]
+
+G_4 = [
     '12', '13', '24', '32',
     '43', '53', '54'
 ]
 
-G = edgelist_to_graph(G_2)
+G = edgelist_to_graph(G_3)
 
 H, C, Diffs, R, Omega = H_path(G, cutoff=3)
 

@@ -24,16 +24,15 @@ edges2 = np.array(
     ]
 )
 
-nodes3 = np.array([1, 2, 3, 4, 5])
+nodes3 = np.array([0, 1, 2, 3, 4])
 edges3 = np.array(
     [
-        [1, 2],
-        [1, 3],
-        [2, 4],
-        [3, 2],
-        [4, 3],
-        [5, 3],
-        [5, 4]
+        [0, 1],
+        [0, 3],
+        [3, 1],
+        [2, 1],
+        [4, 2],
+        [4, 3]
     ]
 )
 
@@ -58,7 +57,7 @@ betti_num1, allowed_paths1 = PathHomology().path_homology(edges1, nodes1, max_pa
 print(f'Betti numbers for 0 to max {max_path} path: {betti_num1}')
 print(f'Allowed paths: {allowed_paths1}')
 
-print('Graph G_2')
+print('\nGraph G_2')
 betti_num2, allowed_paths2 = PathHomology().path_homology(edges2, nodes2, max_path)
 print(f'Betti numbers for 0 to max {max_path} path: {betti_num2}')
 print(f'Allowed paths: {allowed_paths2}')

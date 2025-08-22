@@ -26,4 +26,6 @@ for i, (desc, bars) in enumerate(dn.pers):
         diagram.append((dim, (birth, death_val)))
 
 gd.plot_persistence_diagram(diagram)
+plt.savefig("diagram_persystencji.pdf", bbox_inches='tight')
 plt.show()
+plt.close()
