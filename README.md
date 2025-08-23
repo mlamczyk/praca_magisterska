@@ -77,7 +77,7 @@ Przykład zawartości pliku `pypph\graph.txt`:
 
 Uruchomienie:
 ```
-python pypph\example.py pypph\graph3.txt
+python pypph\example.py pypph\cycleNet11.txt
 ```
 
 ---
