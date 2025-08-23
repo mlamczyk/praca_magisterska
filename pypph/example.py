@@ -9,7 +9,7 @@ fn = sys.argv.pop()
 dn = Dirnet(fn)
 
 # H_0: wierzchołki, wszystkie istnieją od czasu 0
-# H_1: pewne ścieżki o długości 1, nie powinny mieć czasu śmierci 1000.0
+# H_1: pewne ścieżki o długości 1; nie powinny mieć czasu śmierci 1000.0
 # (0.0, 1.0) oznacza, że wierzchołek urodził się przy wartości 0 i zniknął (połączył się z innym) przy wartości 1
 # (0.0, 10000.0) cecha ta nigdy nie zanika w obrębie rozważanej filtracji
 
@@ -25,6 +25,7 @@ for i, (desc, bars) in enumerate(dn.pers):
             death_val = death
         diagram.append((dim, (birth, death_val)))
 
+print(diagram)
 gd.plot_persistence_diagram(diagram)
 plt.savefig("diagram_persystencji.pdf", bbox_inches='tight')
 plt.show()
