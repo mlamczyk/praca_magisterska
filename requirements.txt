@@ -4,3 +4,5 @@ sympy
 matplotlib
 gudhi
 networkx
+Cython
+ripser
